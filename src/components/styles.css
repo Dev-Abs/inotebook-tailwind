@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+  background-color: #f8f9fa;
+}
+.jumbotron {
+  background-color: #262626;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin: -60px 0;
+}
+.my-j{
+  margin: -500px 100px;
+}
+.jumbotron h1 {
+  color: #E9B402;
+}
+.jumbotron p {
+  color: #6c757d;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.jumbotron .lead {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.jumbotron hr {
+  border-color: #d1d1d1;
+}
+.my-btn {
+  background-color: #E9B402;
+  color: #262626;
+  transition: background-color 0.5s;
+}
+.my-btn:hover {
+  background-color: #262626;
+}
+.my-btn2 {
+  background-color: #262626;
+  color: #fff;
+  transition: background-color 0.5s;
+  border: none;
+}
+
+.my-btn2:hover {
+  background-color: #E9B402;
+  color: #262626 ;
+}
+.my-btn3 {
+  background-color: #262626;
+  color: #fff;
+  border: none;
+}
+.my-btn3:hover {
+  background-color: #353434;
+}
+.btn-transparent {
+  background-color: transparent;
+  border-color: transparent;
+  color: #6f6f6f; /* Primary button text color */
+}
+
+.btn-transparent:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #ffffff; /* Darker color for hover effect */
+  /* text-decoration: underline; Optional: Add underline on hover */
+}
